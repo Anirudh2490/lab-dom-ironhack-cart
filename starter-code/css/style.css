@@ -1,6 +1,41 @@
-input {
-  border: solid 1px black;
+
+.title{
+  display: flex;
+  justify-content:space-around;
 }
+
+h1 {
+  text-align: left;
+}
+
+.container {
+  display: flex;
+  justify-content:space-evenly;
+  margin-top: 40px;
+}
+
+input {
+  border: solid 1px grey;
+  width: 15%;
+}
+
+/* #product-name {
+
+}
+
+#cost {
+
+}
+
+#checkout-amount {
+
+}
+
+#product-name {
+
+} */
+
+
 
 .btn {
   display: inline-block;
@@ -22,12 +57,20 @@ input {
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
+  background-color: grey;
+  color: white;
+}
+
+.divider {
+  margin-top: 80px;
 }
 
 .btn-success {
     color: #fff;
     background-color: #5cb85c;
     border-color: #4cae4c;
+    margin: auto;
+    display: block;
 }
 
 .btn-delete {
